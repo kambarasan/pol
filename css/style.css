@@ -1,0 +1,555 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#header {
+  background: #020A18;
+  position: fixed;
+  width: 100%;
+}
+#header .navbar--general {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .navbar--general .input1 input {
+  width: 350px;
+  height: 41px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 41px;
+}
+#header .navbar--general .block a {
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  padding-left: 20px;
+}
+#header .navbar--general .block:hover {
+  transform: scale(1.1);
+  color: #EEB563;
+}
+
+#hero {
+  padding-top: 100px;
+  background: #020A18;
+  width: 100%;
+}
+#hero .hero--general {
+  padding-bottom: 100px;
+}
+#hero .hero--general h4 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #EEB563;
+  text-align: center;
+}
+#hero .hero--general__text {
+  padding-bottom: 50px;
+}
+#hero .hero--general__text h1 {
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 116px;
+  color: #FFFFFF;
+  text-align: center;
+}
+#hero .hero--general__save {
+  padding-bottom: 100px;
+}
+#hero .hero--general__save .fud {
+  display: flex;
+  align-items: center;
+}
+#hero .hero--general__save .fud .kol {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+#hero .hero--general__save .fud .dod .red {
+  position: absolute;
+}
+#hero .hero--general__save .fud .dod .der {
+  position: relative;
+  top: 18px;
+  left: 18px;
+}
+#hero .hero--general__save .gen {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#hero .hero--general__save .gen .gen1 {
+  position: relative;
+  left: -100px;
+}
+#hero .hero--general__save .gen .gen2 {
+  position: absolute;
+}
+#hero .hero--general__save .tilt {
+  position: absolute;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  left: 900px;
+}
+#hero .hero--general__save .set1 {
+  position: absolute;
+  width: 380px;
+  height: 103px;
+  right: 1000px;
+  top: 1000px;
+  border-radius: 70px;
+  transform: rotate(-90deg);
+  border: 1px solid white;
+}
+#hero .hero--general__save .set2 {
+  position: absolute;
+  width: 89.44px;
+  height: 32.66px;
+  left: 250.8px;
+  top: 1163.66px;
+  border: 1px solid #FFFFFF;
+  border-radius: 39px;
+  transform: rotate(179.36deg);
+}
+#hero .hero--general__save .set3 {
+  position: absolute;
+  width: 211px;
+  height: 78px;
+  left: 1067px;
+  top: 589px;
+  border: 1px solid #FFFFFF;
+  border-radius: 39px;
+  transform: rotate(-90deg);
+}
+#hero .hero--general__save .set4 {
+  position: absolute;
+  width: 79px;
+  height: 76px;
+  left: 1096px;
+  top: 848px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+#hero .hero--general__tilt .tel .red3 {
+  padding-top: 50px;
+}
+
+#save {
+  background: #020A18;
+  width: 100%;
+}
+#save .save--general {
+  padding-bottom: 100px;
+}
+#save .save--general h4 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #F1B864;
+  text-align: center;
+}
+#save .save--general h2 {
+  font-weight: 500;
+  font-size: 32px;
+  color: #FFFFFF;
+  text-align: center;
+}
+#save .save--general .solid {
+  position: relative;
+  top: 200px;
+}
+#save .save--general .solid h1 {
+  font-weight: 600;
+  font-size: 29px;
+  color: #FFFFFF;
+  text-align: center;
+}
+#save .save--general .solid p {
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center;
+}
+#save .save--general .solid button {
+  padding: 10px 30px;
+  background: orangered;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  border: orangered;
+  margin-left: 95px;
+}
+#save .save--general .solid button:hover {
+  transform: scale(1.1);
+  color: white;
+  background: transparent;
+  border: 1px solid red;
+}
+#save .save--general body {
+  position: relative;
+  height: 100%;
+}
+#save .save--general body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+#save .save--general .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#save .save--general .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+#save .save--general .swiper-slide img {
+  position: absolute;
+  display: block;
+  width: 100%;
+}
+
+#aboud {
+  background: #020A18;
+  width: 100%;
+}
+#aboud .aboud--general {
+  padding-bottom: 100px;
+}
+#aboud .aboud--general h1 {
+  font-weight: 500;
+  font-size: 32px;
+  color: #FFFFFF;
+  text-align: center;
+}
+#aboud .aboud--general .jojo {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#aboud .aboud--general .jojo button {
+  padding: 10px 30px;
+  background: orangered;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  border: orangered;
+}
+#aboud .aboud--general .jojo button:hover {
+  transform: scale(1.1);
+  color: white;
+  background: transparent;
+  border: 1px solid red;
+}
+#aboud .aboud--general .sim {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#aboud .aboud--general .sim .cet {
+  width: 311px;
+  height: 468px;
+  left: 57px;
+  top: 2961px;
+  border: 1px solid #A6A6A6;
+  border-radius: 26px;
+  margin-left: 20px;
+}
+#aboud .aboud--general .sim .cet img {
+  margin-left: 15px;
+  padding-top: 10px;
+}
+#aboud .aboud--general .sim .cet .cet1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#aboud .aboud--general .sim .cet .cet1 h1 {
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+#aboud .aboud--general .sim .cet .cet1 p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+#aboud .aboud--general .sim .cet .cet2 {
+  margin-top: 60px;
+  margin-left: 10px;
+  width: 284px;
+  border: 1px solid #A0A0A0;
+}
+#aboud .aboud--general .sim .cet .cet5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#aboud .aboud--general .sim1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+#aboud .aboud--general .sim1 .cet {
+  width: 311px;
+  height: 468px;
+  left: 57px;
+  top: 2961px;
+  border: 1px solid #A6A6A6;
+  border-radius: 26px;
+  margin-left: 20px;
+}
+#aboud .aboud--general .sim1 .cet img {
+  margin-left: 15px;
+  padding-top: 10px;
+}
+#aboud .aboud--general .sim1 .cet .cet1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#aboud .aboud--general .sim1 .cet .cet1 h1 {
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+#aboud .aboud--general .sim1 .cet .cet1 p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+#aboud .aboud--general .sim1 .cet .cet2 {
+  margin-top: 60px;
+  margin-left: 10px;
+  width: 284px;
+  border: 1px solid #A0A0A0;
+}
+#aboud .aboud--general .sim1 .cet .cet5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#aboud .aboud--general .fim button {
+  padding: 10px 30px;
+  background: orangered;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  border: orangered;
+  margin-left: 550px;
+}
+#aboud .aboud--general .fim button:hover {
+  transform: scale(1.1);
+  color: white;
+  background: transparent;
+  border: 1px solid red;
+}
+
+#gen {
+  background: #020A18;
+  width: 100%;
+}
+#gen .gen--general h1 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FFFFFF;
+  text-align: center;
+}
+#gen .gen--general .bum {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 150px;
+}
+#gen .gen--general .bum .bum1 .gen-block {
+  width: 411px;
+  height: 91px;
+  left: 70px;
+  top: 4475px;
+  border: 1px solid #BCBCBC;
+  border-radius: 13px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+#gen .gen--general .bum .bum1 .gen-block .gen-til {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#gen .gen--general .bum .bum1 .gen-block .gen-til img {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#gen .gen--general .bum .bum1 .gen-block .gen-til h1 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+#gen .gen--general .bum .bum1 .gen-block .gen-til p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+#gen .gen--general .bum .bum1 .gen-block .gen-til h4 {
+  font-weight: 500;
+  font-size: 13px;
+  color: #21D605;
+  margin-top: 20px;
+}
+#gen .gen--general .bum .bum1 .gen-block .gen-til h5 {
+  font-weight: 500;
+  font-size: 13px;
+  color: #DC9752;
+  margin-top: 20px;
+}
+#gen .gen--general .bum .bum2 .gen-block {
+  width: 411px;
+  height: 91px;
+  left: 70px;
+  top: 4475px;
+  border: 1px solid #BCBCBC;
+  border-radius: 13px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+#gen .gen--general .bum .bum2 .gen-block .gen-til {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#gen .gen--general .bum .bum2 .gen-block .gen-til img {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#gen .gen--general .bum .bum2 .gen-block .gen-til h1 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+#gen .gen--general .bum .bum2 .gen-block .gen-til p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+#gen .gen--general .bum .bum2 .gen-block .gen-til h4 {
+  font-weight: 500;
+  font-size: 13px;
+  color: #21D605;
+  margin-top: 20px;
+}
+#gen .gen--general .bum .bum2 .gen-block .gen-til h5 {
+  font-weight: 500;
+  font-size: 13px;
+  color: #DC9752;
+  margin-top: 20px;
+}
+#gen .gen--general .bum .bum3 .gen-block {
+  width: 411px;
+  height: 91px;
+  left: 70px;
+  top: 4475px;
+  border: 1px solid #BCBCBC;
+  border-radius: 13px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+#gen .gen--general .bum .bum3 .gen-block .gen-til {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#gen .gen--general .bum .bum3 .gen-block .gen-til img {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#gen .gen--general .bum .bum3 .gen-block .gen-til h1 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+#gen .gen--general .bum .bum3 .gen-block .gen-til p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+#gen .gen--general .bum .bum3 .gen-block .gen-til h4 {
+  font-weight: 500;
+  font-size: 13px;
+  color: #21D605;
+  margin-top: 20px;
+}
+#gen .gen--general .bum .bum3 .gen-block .gen-til h5 {
+  font-weight: 500;
+  font-size: 13px;
+  color: #DC9752;
+  margin-top: 20px;
+}
+#gen .gen--general .hoh button {
+  padding: 10px 30px;
+  background: orangered;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: 0.4s;
+  border: orangered;
+  margin-left: 550px;
+}
+#gen .gen--general .hoh button:hover {
+  transform: scale(1.1);
+  color: white;
+  background: transparent;
+  border: 1px solid red;
+}
+#gen .gen--general .dot {
+  position: absolute;
+  width: 66px;
+  height: 38px;
+  left: 275px;
+  top: 4483px;
+  border: 1px solid #FFFFFF;
+  border-radius: 39px;
+  transform: rotate(-90deg);
+}
+
+/*# sourceMappingURL=style.css.map */
